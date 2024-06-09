@@ -71,7 +71,7 @@
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
-            emailjs.init('OvlEjrX4TzlVCTAh4'); // Replace 'YOUR_USER_ID' with your actual User ID from EmailJS
+            emailjs.init('OvlEjrX4TzlVCTAh4'); 
         })();
     </script>
     <script>
@@ -85,7 +85,7 @@
                 query: query
             };
 
-            emailjs.send('service_x3oz9ll', 'template_v2aaesq', templateParams) // Replace with your actual Service ID and Template ID
+            emailjs.send('service_x3oz9ll', 'template_v2aaesq', templateParams) 
                 .then(function(response) {
                     document.getElementById('message').innerText = 'Your query has been sent successfully!';
                 }, function(error) {
